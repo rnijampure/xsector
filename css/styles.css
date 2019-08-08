@@ -1,0 +1,634 @@
+
+body{
+  overflow-x: hidden;
+}
+@font-face {
+  font-family: "IBMPlex";
+  src: url("fonts/IBMPlexSans-Light.otf");
+  }
+  @font-face {
+    font-family: "IBMPlexBold";
+    src: url("fonts/IBMPlexSans-SemiBold.otf");
+    }
+  @font-face {
+    font-family: "IBMPlexMedium";
+    src: url("fonts/IBMPlexSans-Medium.otf");
+    }
+  html, 
+body {
+   
+    /* max-width:100%; */
+    font-family: "IBMPlex";
+    /* position: relative; */
+    overflow-x:hidden; 
+    overflow-y: auto;
+   
+  }
+@media(max-height:760px){
+  html, 
+  body {
+      height: 100%;
+      max-width:100%;
+      font-family: "IBMPlex";
+      position: relative;
+       justify-content: center;
+  }
+}
+p{ font-family: "IBMPlex";}
+#h1{
+  color: rgb(255,255,255);
+}
+/* navbar */
+.navbar{
+
+    background:rgb(0,89,138);
+  }
+
+.nav-link , .navbar-brand{
+	color: #f4f4f4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+
+	color:white;
+  
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler span{
+    background: url(../images/navBar.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+
+
+
+.carousel-inner img{
+     width: 83%;
+     padding-left: 15%;
+}
+.carousel-inner h6{
+	text-align: center;
+}
+
+#carouselExampleIndicators .carousel-indicators{
+  bottom: -17px!important;
+
+}
+.carousel-indicators li {
+
+  background-color: rgb(62, 66, 207)!important;
+ cursor: pointer;
+}
+
+.carousel-indicators .active{
+ cursor: pointer;
+  background-color:#fdc13b!important;
+}
+
+.wrapper{
+  width:100%;
+
+}
+.panel-heading {
+  padding: 0;
+    border:0;
+}
+.panel-title>a, .panel-title>a:active{
+    display:block;
+    padding:15px;
+  color:rgb(0,89,139);
+  font-size:16px;
+  background: rgb(226, 226, 215);
+  font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:1px;
+  word-spacing:3px;
+    text-decoration:none;
+}
+.panel-heading  a:before {
+   font-family: 'Glyphicons Halflings';
+   content: "\e114";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+} 
+.col-lg-3 col-6 text-center{
+    background-color: black;
+    padding-block-start:0%; 
+}
+.a{
+    padding-block-start: 2%;
+    background: rgb(244, 247, 91);
+}
+.panel panel-default{
+  background-color: wheat;
+}
+
+.image{
+  padding-top: 15%;
+  
+}
+
+#aboutus{
+padding-top: 0%;
+
+}
+.carousel-item img{
+    margin: auto;
+    padding: 0;	
+}
+.container{
+	margin-top: 5%;
+	
+}
+.is{
+  font-size: 50px;
+}
+
+.container1 p{
+  font-family:'IBMPlex' ;
+}
+.h1, h1 {
+  font-size: 18px!important;
+}
+#as{
+  color:rgb(50,18,96); 
+}
+#aq{
+  color:rgb(50,18,96); 
+  font-weight: bold;
+}
+#az{
+  padding-left: 19%;
+  
+}
+
+#xy{
+  margin-block-start: 3%;
+  padding-left:4%;
+}
+label {
+    float: left;
+    padding: 0 3em;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'IBMPlexMedium', Times, serif;
+    font-weight: bold;
+    color: #002b30;
+    position: relative;
+ }
+ .toHide{
+	font-family:'IBMPlex' ;
+ }
+ .container h2{
+  color: #321260;
+  font-weight: bold;
+  font-family: 'IBMPlexBold';
+}
+.container h3{
+  color: #321260;
+	font-weight: bold;
+}
+
+.container1 .accordion {
+  background-color:#009e9a;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 14px;
+  transition: 0.4s;
+  border: 2px solid white;
+  border-left: 1px solid #009e9a;
+  border-right: 1px solid #009e9a;
+  margin: auto;  
+  font-weight: bold;
+  line-height: 31px;
+}
+
+.container1  .accordion:hover {
+  background: -moz-linear-gradient(-45deg, #b3dced 0%, #29b8e5 50%, #bce0ee 100%)
+}
+
+.container1 .accordion:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 24px;
+  
+}
+
+.container1 .active:after {
+  content: "\2212";
+}
+
+.accordion.active .panel {
+  padding: 10px 18px;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  border:0.5px solid #009e9a;
+  
+}
+#left{
+  padding-left: 5%
+}
+#right{
+  padding-left: 35%;
+  margin-top: -5%;
+  padding-bottom: 123px;
+ 
+}
+
+.navbar.navbar-expand-lg {
+  background: #051243;
+  
+}
+.caption h6 {
+  font-size: 42px;
+  color: #051243;
+  font-weight: bold;
+  margin-top:2%;  
+}
+.screen-container{
+  border-top: 2px solid rgb(5,27,117);
+  margin-top: 10%;
+  box-shadow: inset 0 7px 9px -7px rgba(0,0,0,0.4);
+ }
+/* team */
+.container20 img{
+height: 130px;
+width: 115px;
+}
+.container20{
+  padding-left: 130px;
+  height: 300px;
+}
+button
+{
+ margin-top: 5%;
+ float:right;
+ color:blue;
+
+}
+.btn-secondary{
+  background-color: #007bff !important;
+  border: 0!important;
+
+}
+h4.modal-title, h5.modal-title {
+
+
+  color: #321260;
+    font-weight: bold;
+    font-family: 'IBMPlexBold';
+
+}
+.iservice-div  h6.color1, .lndOfferingDiv h6.color1{
+  color: #4f2196;
+  font-size: 15px;
+  text-align: left;
+  font-family: 'IBMPlexMedium';
+}
+
+.iservice-div  .col-md-3,.iservice-div   li,.iservice-div   .col-md-2 , .lndOfferingDiv .col-md-6{
+
+  font-size: 10px;
+  font-family: IBMPlex;
+}
+.list-unordered {
+  list-style-type: 'none';
+}
+
+.list-unordered li {
+  display:inline-block;
+  width: 152px;
+} 
+.container11{
+  height:350px;
+}
+.ad{
+  font-size:14px;
+  text-align: left;
+}
+.ad1{
+  font-size:12px;
+  text-align: left;
+}
+.color{
+  color:#4f2196;
+  font-size:30px;
+  text-align: center;
+}
+.font{
+  font-size:20px;
+}
+.color1{
+  color:#4f2196;
+  font-size:12px;
+  text-align: center;
+}
+.color2{
+  color:#4f2196;
+  font-size:12px;
+  
+}
+.color2{
+  color:#4f2196;
+  font-size:14px;
+  
+}
+
+.heading{
+  font-family: 'IBMPlexMedium';
+  color: white;
+  padding: 10px;
+  line-height: 21px;
+  font-size: 21px;
+  background: url("../images/heading_BG.png");
+  background-position: -63px -3px;
+  height: 47px;
+  background-repeat: no-repeat;
+  padding-left: 24px;
+
+}
+
+.accordian-div{
+
+  padding-right: 30px;margin-top: 3%;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .accordian-div{
+
+    padding-right: 0;margin-top: 3%;
+  }
+  
+}
+#customADM .col-lg-4 img{
+  max-width: 75px;
+
+}
+.microsoftServ .col-md-2 img{
+  max-width: 170px;
+
+}
+#customADM .col-lg-6.side-text  {
+padding-top: 0;
+padding: 0;
+}
+
+#customADM .col-lg-6.side-text .color2{
+  
+  color: #4f2196;
+    font-size: 14px;    font-family: "IBMPlexMedium";
+    line-height: 24px;
+    margin-top: 14px;
+  color: rgba(0,0,0,.9);
+}
+  .microsoftServ  .side-text .color3{
+  
+    color: #4f2196;
+      font-size: 17px; 
+    font-family: "IBMPlexMedium";
+      line-height: 24px;
+      margin-top: 14px;
+    }
+  
+      .microsoftServ  .side-text {
+  
+          font-size: 14px; 
+        font-family: "IBMPlex";
+          }
+          .microsoftServ  li {
+  
+            font-size: 12px; 
+          font-family: "IBMPlex";
+            }
+            .microsoftServ  ul {
+  
+              font-size: 14px; 
+            font-family: "IBMPlex";
+            /* padding-left:0 ;*/
+            padding-left: 13px; 
+              }
+
+              .microsoftServ .col-md-4 img{
+                max-width:200px;
+
+              }  
+          
+    
+/* 
+          #myTeamCarousel .carousel-caption {
+            color:#212529;
+          }
+          @media (min-width: 787px) {
+          #myTeamCarousel  .carousel-inner {
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            height: 180px;
+        }
+        #myTeamCarousel   .col-md-3{
+background: #c9deff;
+padding: 4px 1px;
+
+      margin: 0 20px;
+        }
+
+        #myTeamCarousel   .container20 img{
+          float: left;
+        }
+        #myTeamCarousel  .col-md-3 p{
+          margin-top: 0;
+          margin-bottom: 1rem;
+          float: left;
+          background: #054ada;
+          display: block;
+          width: 100%;
+          color: white;
+          text-transform: uppercase;
+          padding: 3px 15px;
+          font-family: IBMPlexMedium;
+        
+        }
+
+      }
+
+      */
+
+      #myTeamCarousel .carousel-caption {
+        color:#212529;
+      }
+      .container20.ourteam{
+        padding-left: 0px;
+      }
+      @media (max-width: 1024px) and (min-width: 767px) {
+  
+        #myTeamCarousel  .col-md-3 {
+          -ms-flex: 0 0 38%;
+          flex: 0 0 38%;
+          max-width: 57%;
+      }
+        
+      }
+      .carousel.slide.screen-container{
+        top: 0px;
+        clear: both;
+        border: 0;
+        box-shadow: none;
+        margin-top: 42px;
+      }
+
+     
+      @media (min-width: 787px) {
+        .carousel.slide.screen-container{
+
+          clear:both;border:0;box-shadow: none;
+        }
+  
+        .container20.ourteam{
+          padding-left: 135px;
+          PADDING-TOP: 20px;
+        }
+      #myTeamCarousel  .carousel-inner {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        height: 135px;
+    }
+    }
+    #myTeamCarousel   .col-md-3{
+      background: #c9deff;
+      padding: 1px 0px;
+      margin: 30px;
+      height: 104px;
+      position: relative;
+    }
+
+    #myTeamCarousel .col-md-3 img{
+      height: 133px;
+    width: 115px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    z-index: 999;
+    }
+    #myTeamCarousel  .col-md-3 p{
+      margin-top: 0;
+      margin-bottom: 1rem;
+      float: left;
+      background: #054ada;
+      display: block;
+      width: 100%;
+      color: white;
+      text-transform: uppercase;
+      padding: 3px 15px;
+      font-family: IBMPlexMedium;
+      font-size: 14px;
+      padding-left: 127px;
+    
+
+  }
+  #myTeamCarousel  .col-md-3 span{
+    margin-top: -6px;
+    margin-bottom: 1rem;
+    float: right;
+    display: block;
+    width: 55%;
+    font-family: IBMPlexMedium;
+  font-size: 12px;
+
+}
+.leadership-txt{
+  float: none;
+text-align: center;
+margin-top: 20px;
+font-style: italic;
+}
+.col-sm-3.desc{
+  /* padding:2em; */
+  border-width: 1px;
+  border-style: solid;
+  -webkit-border-image: 
+    -webkit-gradient(linear, 0 0, 0 100%, from(#10828c), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: 
+    -webkit-linear-gradient(#10828c, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient(#10828c, rgba(0, 0, 0, 0)) 1 100%;    
+  -o-border-image:
+    -o-linear-gradient(#10828c, rgba(0, 0, 0, 0)) 1 100%;
+  border-image:
+    linear-gradient(to bottom, #10828c, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+@media (max-width: 787px) {
+  .leadership-txt{
+    display: none;
+  }
+  #myTeamCarousel  .col-md-3 span{
+    margin-top: -6px;
+    margin-bottom: 1rem;
+    float: right;
+    display: block;
+    width: 55%;
+    font-family: IBMPlex;
+  font-size: 10px;
+
+}
+
+}
+#marketing{
+  padding-left: 20px;
+}
+.prev-icon,
+.next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  background-image: none;
+  padding: 30px;
+}
+
+.prev-icon {
+  margin-left: -155%;
+}
+
+
+.next-icon:after
+{
+  content: '>';
+  font-size: 35px;
+  color: red;
+}
+
+.prev-icon:after {
+  content: '<';
+  font-size: 35px;
+  color: red;
+}
+#team{
+  margin-top: 1%;
+}
